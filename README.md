@@ -27,10 +27,10 @@ roslaunch ego_planner single_drone_interactive.launch
 ```
 
 点击运行模拟，并且切换到场景视角。
-<img src=https://raw.githubusercontent.com/LanternW/imgs_cat/main/run_and_scene.png width=80%/>
+<img src=https://raw.githubusercontent.com/LanternW/imgs_cat/main/run_and_scene.png width=100%/>
 
 使用3D nav goal工具在rviz中点击目标点，即可实时在unity中运行。
-<img src=https://raw.githubusercontent.com/LanternW/imgs_cat/main/run.png width=80% />
+<img src=https://raw.githubusercontent.com/LanternW/imgs_cat/main/run.png width=100% />
 
 ## 自定义
 
@@ -38,7 +38,7 @@ roslaunch ego_planner single_drone_interactive.launch
 
 注意：如果在运行时更改参数，停止运行后不会保存期间的任何修改。
 
-<img src=https://raw.githubusercontent.com/LanternW/imgs_cat/main/setting.png width=75% />
+<img src=https://raw.githubusercontent.com/LanternW/imgs_cat/main/setting.png width=100% />
 
 
 ### 关于地图编辑
@@ -48,4 +48,4 @@ roslaunch ego_planner single_drone_interactive.launch
 只有renderer的物体，具有外观，但是不能反射产生雷达点云。
 只有collider的物体，外观隐形，但是可以产生雷达点云。
 
-<img src=https://raw.githubusercontent.com/LanternW/imgs_cat/main/map.png  width=75% />
+<img src=https://raw.githubusercontent.com/LanternW/imgs_cat/main/map.png  width=100% />
